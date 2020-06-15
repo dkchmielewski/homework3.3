@@ -1,20 +1,16 @@
 class Calculator {
-        Boolean isEven(int x) {
-            Integer modEven = x % 2;
-            boolean even = modEven == 0;
-            return even;
+        boolean isEven(int x) {
+            return x % 2 == 0;
         }
-        Boolean isOdd(int y) {
-            Integer modOdd = y % 2;
-            boolean odd = modOdd != 0;
-            return odd;
+        boolean isOdd(int y) {
+            return y % 2 != 0;
         }
-        Double circleField(double r) {
+        double circleField(double r) {
             Double result = 0.0;
             result = 3.14 * (r * r);
             return result;
         }
-        Integer power(Integer z) {
+        int power(Integer z) {
             Integer result = z * z;
             return result;
         }
