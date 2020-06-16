@@ -6,12 +6,9 @@ class Calculator {
             return y % 2 != 0;
         }
         double circleField(double r) {
-            Double result = 0.0;
-            result = 3.14 * (r * r);
-            return result;
+            return 3.14 * (r * r);
         }
         int power(Integer z) {
-            Integer result = z * z;
-            return result;
+            return z * z;
         }
 }
